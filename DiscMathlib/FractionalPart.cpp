@@ -1,4 +1,5 @@
-#include <string>
+#include "DiscMath.h"
+#include "pch.h"
 #include <vector>
 
 int FractionalPart (int mk, int dk, int a0, int afirst, std::vector<int>& out) {
@@ -23,4 +24,5 @@ int FractionalPart (int mk, int dk, int a0, int afirst, std::vector<int>& out) {
 	for (int j = 1; j <= i; ++j) {
 		out.push_back(matrix[j][2]);
 	}
+	return i;
 }

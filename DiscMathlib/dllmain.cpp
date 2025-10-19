@@ -1,5 +1,6 @@
 ﻿// dllmain.cpp : An entry point of the app
 #include "pch.h"
+#include "DiscMath.h"
 
 BOOL APIENTRY DllMain( HMODULE hModule,
                        DWORD  ul_reason_for_call,

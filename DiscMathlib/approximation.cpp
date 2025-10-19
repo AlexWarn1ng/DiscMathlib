@@ -1,7 +1,6 @@
-#include <string>
+#include "DiscMath.h"
+#include "pch.h"
 #include <vector>
-#include <iomanip>
-#include <iostream>
 #include <cstdlib>
 #include <utility>
 

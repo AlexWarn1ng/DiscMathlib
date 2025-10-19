@@ -1,4 +1,5 @@
 #include "DiscMath.h"
+#include "pch.h"
 #include <utility>
 
 std::pair<int, int> ExtendedEuclideanAlgorithm(int a, int b) {

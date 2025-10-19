@@ -1,5 +1,7 @@
 #pragma once
 #include <vector>
+#include "DiscMath.h"
+#include "pch.h"
 #include <utility>
 
 #if defined(_WIN32)
