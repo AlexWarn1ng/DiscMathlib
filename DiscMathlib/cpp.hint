@@ -1,0 +1,2 @@
+#define DISCMATHLIB_API __declspec(dllexport)
+#define DISCMATHLIB_API __declspec(dllimport)
