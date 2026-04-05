@@ -46,6 +46,5 @@ Copy `DiscMathlib.dll` next to your compiled `.exe` file
 
 ## Step 5. Include in Code
 
-```cpp
-#include "DiscMath.h"
+#include "DiscMath.h" !
 Make sure the header file is added to your project.
