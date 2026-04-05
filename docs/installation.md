@@ -1,22 +1,33 @@
-# Installation Guide
+# DiscMathlib Installation Guide
 
-## DiscMathlib Installation Guide
+## Step 1. Download
 
-### Download the project first. After a successful download, you should have the following files located in:
+Download the project. After a successful download, you should have the following files:
 
-    DiscMathlib.dll – the dynamic library
-    DiscMathlib.lib – the import library
-    DiscMathlib.exp – export file
-    DiscMath.h – header file
+- DiscMathlib.dll — the dynamic library  
+- DiscMathlib.lib — the import library  
+- DiscMathlib.exp — export file  
+- DiscMath.h — header file  
 
-    Copy these files to a folder where you want to keep your library, for example:
-    C:\Libs\DiscMathlib\
+---
 
-    In your new Visual Studio project (for example, a console application), open Project → Properties and configure the following:
+## Step 2. Place the Files
+
+Copy these files to a folder where you want to keep your library, for example:
+C:\Libs\DiscMathlib\
+
+---
+
+## Step 3. Configure Visual Studio
+
+Open your project and go to:
+
+Project → Properties
+
+Configure the following settings.
 
 ### C/C++ → General → Additional Include Directories:
-
-### C:\Libs\DiscMathlib\
+C:\Libs\DiscMathlib\
 
 ### Linker → General → Additional Library Directories:
 C:\Libs\DiscMathlib\
@@ -24,7 +35,17 @@ C:\Libs\DiscMathlib\
 ### Linker → Input → Additional Dependencies:
 DiscMathlib.lib
 
-### Copy DiscMathlib.dll next to your compiled .exe file (for example, in the same folder as ConsoleApp.exe).
+---
 
-### Use the header in your code:
-#include "DiscMath.h" (Also add it into your project)
+## Step 4. Runtime Setup
+
+Copy `DiscMathlib.dll` next to your compiled `.exe` file  
+(for example, into the same folder as `ConsoleApp.exe`).
+
+---
+
+## Step 5. Include in Code
+
+```cpp
+#include "DiscMath.h"
+Make sure the header file is added to your project.
