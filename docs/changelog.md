@@ -13,7 +13,7 @@ The approximation logic has been completely redesigned. Now the approximation cy
 if the period "1 2 3 4 5" is passed to the function, the function will construct an approximation based on the period "1 2 3 4 5 1 2 3 4 5 1 2 3 4 5"***.
 This fixes the problem of an unfound approximation, where an approximation exists but the function can't find it.
 
-`**` - don't try to construct a continued fraction for an integer (there's no nontrivial periodic part)
-`***` - the period is repeated as many times as it can fit within the matrix length constraint matrix[100][100]
+\*\* - don't try to construct a continued fraction for an integer (there's no nontrivial periodic part)
+\*\*\* - the period is repeated as many times as it can fit within the matrix length constraint matrix[100][100]
 That is, there can't be more than 100 numbers. BUT! We don't require the period to fit completely, which means if there's not enough space to insert it completely,
 we insert only the numbers that fit, and don't insert any remaining numbers after the boundary is crossed.
