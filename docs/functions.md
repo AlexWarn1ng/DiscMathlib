@@ -42,7 +42,7 @@ double bound = res.second.second; // Error bound
 }
 ```
 
-DISCMATH_API std::vector<std::vector<int>> AdjMatFromSeqAlpha(std::vector<std::string> sequence, std::string type);
+## DISCMATH_API std::vector<std::vector<int>> AdjMatFromSeqAlpha(std::vector<std::string> sequence, std::string type);
 ### Purpose: 
 Makes adjacency matrix from a sequence of edges.
 For example, given an edge list A = {(A,B), (B,C), (C,D), (D,M)}, we need to construct an adjacency matrix. Since the graph can be either directed or undirected, the function handle both types.
@@ -58,7 +58,7 @@ std::vector<std::vector<int>> ans = AdjMatFromSeqAlpha(someStuff, "DIR");
 }
 ```
 
-DISCMATH_API std::vector<std::vector<int>> AdjMatrixToList(std::vector<std::vector<int>> matrix);
+## DISCMATH_API std::vector<std::vector<int>> AdjMatrixToList(std::vector<std::vector<int>> matrix);
 ### Purpose: 
 In some cases we need to convert matrix to a list for calculations.
 Parameters:
@@ -71,7 +71,7 @@ std::vector<std::vector<int>> ans = AdjMatrixToList(matrix);
 }
 ```
 
-DISCMATH_API std::vector<int> GeneratePruferCode(std::vector<std::vector<int>> AdjList);
+## DISCMATH_API std::vector<int> GeneratePruferCode(std::vector<std::vector<int>> AdjList);
 ### Purpose: 
 Prufer code helps to store huge trees efficiently and decode them. This implementation handles trees without cycles.
 READ MORE: https://en.wikipedia.org/wiki/Pr%C3%BCfer_sequence
