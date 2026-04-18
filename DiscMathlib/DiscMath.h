@@ -72,3 +72,7 @@ int main() {
     double bound = res.second.second; // Error bound
 }
 */
+
+DISCMATH_API std::vector<int> GeneratePruferCode(std::vector<std::vector<int>> AdjList);
+DISCMATH_API std::vector<std::vector<int>> AdjMatrixToList(std::vector<std::vector<int>> matrix);
+DISCMATH_API std::vector<std::vector<int>> AdjMatFromSeqAlpha(std::vector<std::string> sequence, std::string type);
