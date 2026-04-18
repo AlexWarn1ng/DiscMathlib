@@ -58,7 +58,7 @@ FractionalPart(m0, d1, A, B, vec); // returns in vec, you do not need to make a 
 }
 */
 
-DISCMATH_API std::pair<int, std::pair<double, double>> Approximation(int celoje, std::vector<int>& drobnijoststok, double prib); // It finds the best rational approximation based on an already known continued fraction. 
+DISCMATH_API std::pair<int, std::pair<double, double>> Approximation(int integer, std::vector<int>& fracture, double approximationneeded); // It finds the best rational approximation based on an already known continued fraction. 
 // USE: Example.
 /*
 int main() {
