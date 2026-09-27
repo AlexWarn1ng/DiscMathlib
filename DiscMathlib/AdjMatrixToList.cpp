@@ -18,7 +18,7 @@ std::vector<std::vector<int>> AdjMatrixToList(std::vector<std::vector<int>> matr
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			if (matrix[i][j] == 1) {
-    AdjList[i].push_back(j);
+				 AdjList[i].push_back(j);
 }
 		}
 	}

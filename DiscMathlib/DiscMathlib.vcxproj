@@ -164,6 +164,7 @@
     <ClCompile Include="AdjMatrixToList.cpp" />
     <ClCompile Include="approximation.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="IsEulerianGraph.cpp" />
     <ClCompile Include="ExtendedEuclideanAlgorithm.cpp" />
     <ClCompile Include="GeneratePruferCode.cpp" />
     <ClCompile Include="pch.cpp">

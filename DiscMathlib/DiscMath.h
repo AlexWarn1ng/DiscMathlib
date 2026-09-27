@@ -3,6 +3,7 @@
 #include "DiscMath.h"
 #include "pch.h"
 #include <utility>
+#include <string>
 
 #if defined(_WIN32)
 #ifdef DISCMATHLIB_EXPORTS
