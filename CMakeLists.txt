@@ -14,6 +14,8 @@ add_library(DiscMathlib SHARED
     src/IsEulerianGraph.cpp
     src/DiscMath.h
     src/framework.h
+    src/KruskalsAlgorithm.cpp
+    src/CustomDataStructures.h
 )
 
 target_compile_definitions(DiscMathlib PRIVATE DISCMATHLIB_EXPORTS)
